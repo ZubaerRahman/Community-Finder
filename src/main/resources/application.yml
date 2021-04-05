@@ -1,0 +1,21 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIASVLEOTALTB3YTHIK
+      secret-key: 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
+    region:
+      static: eu-west-2
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: communityfinderbucket
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB

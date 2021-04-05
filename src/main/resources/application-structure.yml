@@ -1,0 +1,21 @@
+cloud:
+  aws:
+    credentials:
+      access-key:
+      secret-key:
+    region:
+      static:
+    stack:
+      auto:
+
+application:
+  bucket:
+    name:
+
+spring:
+  servlet:
+    multipart:
+      enabled:
+      file-size-threshold:
+      max-file-size:
+      max-request-size:
